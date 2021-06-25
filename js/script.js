@@ -33,7 +33,7 @@ function initMap() {
 
 
 
-$('#navbar a, .btn').on('click', function(event){
+$('#navbar a').on('click', function(event){
     if(this.hash !== ''){
         event.preventDefault();
         const hash = this.hash;
